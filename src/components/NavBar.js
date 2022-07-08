@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// React bootstrap component for the NavBar
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 function NavBar() {
@@ -15,15 +16,17 @@ function NavBar() {
         setScrolled(false);
       }
     };
+    // when scrolling, set the state of the scrolled variable
     window.addEventListener("scroll", onScroll);
     return () => {
+      // when the component is unmounted, remove the event listener
       window.removeEventListener("scroll", onScroll);
     };
   }, []);
+  // Update the active link when the user clicks on a link
   const onUpdateActiveLink = (value) => {
     setactiveLink(value);
   };
-
   // And return the NavBar component with JSX
   return (
     <>

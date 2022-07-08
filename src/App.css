@@ -62,12 +62,6 @@ nav.navbar.scrolled {
     color: #fff;
 }
 
-nav.navbar .navbar-brand {
-    text-shadow: 0 0 10px white;
-    font-size: 25px;
-    font-weight: 700;
-}
-
 .nav-link.navbar-link {
     color: #121212 !important;
     font-weight: 400;
@@ -76,8 +70,18 @@ nav.navbar .navbar-brand {
     font-size: 18px;
 }
 
-nav.navbar.scrolled .nav-link.navbar-link,
+.scrolled .nav-link.navbar-link,
 .navbar-brand {
+    color: #fff !important;
+}
+
+nav.navbar .navbar-brand {
+    color: #121212 !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav.navbar.scrolled .navbar-brand {
     color: #fff !important;
 }
 
