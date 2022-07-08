@@ -40,8 +40,6 @@ p.danger {
 
 nav.navbar {
     padding: 10px 0;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 9999;
     transition: ease-in-out .4s;
@@ -52,6 +50,8 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
+    position: fixed;
+    top: 0;
     padding: 0;
     background-color: #121212 !important;
     transition: ease-in-out .4s;
