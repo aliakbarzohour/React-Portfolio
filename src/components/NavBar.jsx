@@ -67,7 +67,20 @@ function NavBar() {
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <span className="social-icon">{/* Insert Icons */}</span>
+              <span className="social-icons">
+                {/* Github */}
+                <a href="https://github.com/aliakbarzohour">
+                  <i class="bi bi-github"></i>
+                </a>
+                {/* LinkedIn */}
+                <a href="https://linkedin.com/in/aliakbarzohour">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                {/* Instagram */}
+                <a href="https://instagram.com/ali.akbarzohour">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </span>
               <button
                 className="vvd"
                 onClick={() => {

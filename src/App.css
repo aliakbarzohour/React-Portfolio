@@ -85,6 +85,24 @@ nav.navbar.scrolled .navbar-brand {
     color: #fff !important;
 }
 
+nav.navbar.scrolled .navbar-text .social-icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #ffffff0f;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px 10px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .navbar-text {
     display: flex;
     align-items: center;
@@ -94,7 +112,25 @@ nav.navbar.scrolled .navbar-brand {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 14px;
+    margin: 0 20px 0 0;
+}
+
+.navbar-text .social-icons a {
+    margin: 0 10px;
+    color: #121212;
+    background-color: #1212120f;
+    border: 1px solid #121212;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px 10px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .navbar-text button {
@@ -104,6 +140,39 @@ nav.navbar.scrolled .navbar-brand {
     background-color: #121212;
     color: #fff;
     border: 1px solid #fff;
+    position: relative;
+}
+
+.navbar-text button::before {
+    content: "Let's Connect";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    width: 0;
+    height: 100%;
+    z-index: 0;
+    opacity: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.navbar-text button:hover::before {
+    opacity: 1;
+    color: #121212;
+    width: 100%;
+}
+
+.navbar-text button:hover {
+    opacity: 1;
+    color: #121212;
+    width: 100%;
 }
 
 .App {
