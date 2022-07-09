@@ -1,0 +1,137 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 9999;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -ms-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+}
+
+nav.navbar.scrolled {
+    padding: 0;
+    background-color: #121212 !important;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -ms-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    color: #fff;
+}
+
+.nav-link.navbar-link {
+    color: #ffffff !important;
+    font-weight: 400;
+    letter-spacing: .8px;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+.scrolled .nav-link.navbar-link,
+.navbar-brand {
+    color: #fff !important;
+}
+
+nav.navbar .navbar-brand {
+    /* color: #121212 !important; */
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav.navbar.scrolled .navbar-brand {
+    color: #fff !important;
+}
+
+nav.navbar.scrolled .navbar-text .social-icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #ffffff0f;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px 10px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+
+.navbar-text .social-icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #ffffff0f;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px 10px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar-text button {
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.navbar-text button::before {
+    content: "Let's Connect";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    width: 0;
+    height: 100%;
+    z-index: 0;
+    opacity: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.navbar-text button:hover::before {
+    opacity: 1;
+    color: #121212;
+    width: 100%;
+}
+
+.navbar-text button:hover {
+    opacity: 1;
+    color: #121212;
+    width: 100%;
+}

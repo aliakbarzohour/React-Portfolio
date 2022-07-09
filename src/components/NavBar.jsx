@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 // React bootstrap component for the NavBar
 import { Navbar, Nav, Container } from "react-bootstrap";
+// Style the NavBar component
+import './NavBar.css';
 
 function NavBar() {
   // Difine the state for the active links
@@ -33,7 +35,7 @@ function NavBar() {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">Logo</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className="border-light text-light" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link

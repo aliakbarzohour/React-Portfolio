@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Global Styles
 import './App.css';
+// Hero Section Component
 import Banner from './components/Banner';
 // Navbar Component
 import NavBar from './components/NavBar';
