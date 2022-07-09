@@ -30,7 +30,7 @@ function NavBar() {
   // And return the NavBar component with JSX
   return (
     <>
-      <Navbar bg="light" expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">Logo</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

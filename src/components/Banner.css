@@ -1,0 +1,96 @@
+.banner {
+    padding: 190px 0 100px 0;
+    background: url('../assets/image/banner-bg.png') top center no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.banner .tagline {
+    letter-spacing: .8px;
+    font-weight: 700;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(90deg, rgba(170, 54, 124, 0.5), rgba(74, 47, 189, 0.5));
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.banner h1 {
+    font-weight: 700;
+    letter-spacing: .8px;
+    font-size: 65px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 96%;
+}
+
+.banner button {
+    background: none;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 20px;
+    letter-spacing: .8px;
+    font-weight: 700;
+}
+
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 1;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.banner button:hover svg {
+    margin-left: 25px;
+}
+
+.banner img {
+    width: 100%;
+    animation: updown 3s linear infinite;
+    -webkit-animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+    }
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.8em solid rgb(158, 158, 158);
+}

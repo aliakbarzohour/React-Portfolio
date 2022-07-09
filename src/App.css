@@ -39,6 +39,9 @@ p.danger {
 }
 
 nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 10px 0;
     width: 100%;
     z-index: 9999;
@@ -50,8 +53,6 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-    position: fixed;
-    top: 0;
     padding: 0;
     background-color: #121212 !important;
     transition: ease-in-out .4s;
@@ -63,7 +64,7 @@ nav.navbar.scrolled {
 }
 
 .nav-link.navbar-link {
-    color: #121212 !important;
+    color: #ffffff !important;
     font-weight: 400;
     letter-spacing: .8px;
     padding: 0 25px;
@@ -76,7 +77,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar .navbar-brand {
-    color: #121212 !important;
+    /* color: #121212 !important; */
     font-size: 25px;
     font-weight: 700;
 }
@@ -117,9 +118,9 @@ nav.navbar.scrolled .navbar-text .social-icons a {
 
 .navbar-text .social-icons a {
     margin: 0 10px;
-    color: #121212;
-    background-color: #1212120f;
-    border: 1px solid #121212;
+    color: #ffffff;
+    background-color: #ffffff0f;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     font-size: 25px;
     padding: 5px 10px;
