@@ -6,9 +6,9 @@ import * as Icon from "react-bootstrap-icons";
 // Hero Section image
 import headerImg from "../assets/image/header-img.svg";
 // Style for the Hero Section
-import "./Banner.css";
+import "./HeroSection.css";
 
-function Banner() {
+function HeroSection() {
   // Hooks for the Hero Section
   // Loop for To Rotate the text
   const [loopNum, setLoopNum] = useState(0);
@@ -104,4 +104,4 @@ function Banner() {
     </>
   );
 }
-export default Banner;
+export default HeroSection;

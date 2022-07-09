@@ -1,0 +1,49 @@
+.skills {
+    position: relative;
+    padding: 0 0 50px 0;
+}
+
+.skills-box {
+    background-color: #151515;
+    border-radius: 64px;
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    -ms-border-radius: 64px;
+    -o-border-radius: 64px;
+    padding: 60px 50px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.skills h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.skills p {
+    font-size: 18px;
+    color: #B8B8B8;
+    line-height: 1.5em;
+    letter-spacing: .8px;
+    margin: 14px 0 75px 0;
+}
+
+.skills-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skills-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    bottom: 0;
+    z-index: -4;
+}

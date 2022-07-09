@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.4.0",
     "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.2",
     "react-scripts": "5.0.1",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"

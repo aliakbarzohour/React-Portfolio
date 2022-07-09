@@ -3,15 +3,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Global Styles
 import './App.css';
 // Hero Section Component
-import Banner from './components/Banner';
+import HeroSection from './components/HeroSection';
 // Navbar Component
 import NavBar from './components/NavBar';
+// Skills Component
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Banner/>
+      <HeroSection/>
+      <Skills/>
     </div>
   );
 }
