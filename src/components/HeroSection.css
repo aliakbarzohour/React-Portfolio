@@ -91,6 +91,6 @@
     }
 }
 
-.txt-rotate>.wrap {
-    border-right: 0.8em solid rgb(158, 158, 158);
+.wrap {
+    border-right: 1.2px solid rgb(158, 158, 158);
 }
